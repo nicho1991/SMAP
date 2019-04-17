@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="there">go There</string>
+    <string name="back">Go Back!</string>
+    <string name="title_activity_there">there</string>
+</resources>

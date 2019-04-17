@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UI Demos</string>
+    <string name="strings_Picker_Demo">Picker Demo</string>
+    <string name="strings_Edit_Text_Demo">Edit text demo</string>
+    <string name="strings_SlidersDemo">Sliders demo</string>
+    <string name="title_activity_slider">Slider</string>
+    <string name="title_activity_picker">Picker</string>
+    <string name="title_activity_edit_text">EditText</string>
+    <string name="string_Ok">OK</string>
+    <string name="Strings_Cancel">Cancel</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/ViewOfLists"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:addStatesFromChildren="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ViewOfLists"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Picker"
+            android:text="@string/strings_Picker_Demo"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="541dp"
+            tools:text="@string/strings_Picker_Demo" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="EditText"
+            android:text="@string/strings_Edit_Text_Demo"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="36dp"
+            tools:text="@string/strings_Edit_Text_Demo" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Slider"
+            android:text="@string/strings_SlidersDemo"
+            tools:layout_editor_absoluteX="244dp"
+            tools:layout_editor_absoluteY="541dp"
+            tools:text="@string/strings_SlidersDemo" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

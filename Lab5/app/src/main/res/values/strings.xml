@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WhoMe</string>
+    <string name="FirstName">First name</string>
+    <string name="LastName">Last name</string>
+    <string name="PhoneNumber">Phone number</string>
+    <string name="Age">Age</string>
+</resources>
